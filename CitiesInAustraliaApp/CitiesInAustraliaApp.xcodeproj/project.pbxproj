@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		91E633D12E73E1B600DAE943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E633B02E73E0CC00DAE943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E633B72E73E0CC00DAE943;
+			remoteInfo = CitiesInAustraliaApp;
+		};
+		91E633E02E73E1D400DAE943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91E633B02E73E0CC00DAE943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91E633B72E73E0CC00DAE943;
+			remoteInfo = CitiesInAustraliaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91E633B82E73E0CC00DAE943 /* CitiesInAustraliaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiesInAustraliaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E633CD2E73E1B600DAE943 /* CitiesInAustraliaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesInAustraliaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91E633DA2E73E1D400DAE943 /* CitiesInAustraliaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesInAustraliaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		91E633BA2E73E0CC00DAE943 /* CitiesInAustraliaApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CitiesInAustraliaApp;
+			sourceTree = "<group>";
+		};
+		91E633CE2E73E1B600DAE943 /* CitiesInAustraliaAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CitiesInAustraliaAppTests;
+			sourceTree = "<group>";
+		};
+		91E633DB2E73E1D400DAE943 /* CitiesInAustraliaAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CitiesInAustraliaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91E633B52E73E0CC00DAE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633CA2E73E1B600DAE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633D72E73E1D400DAE943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E633AF2E73E0CC00DAE943 = {
+			isa = PBXGroup;
+			children = (
+				91E633BA2E73E0CC00DAE943 /* CitiesInAustraliaApp */,
+				91E633CE2E73E1B600DAE943 /* CitiesInAustraliaAppTests */,
+				91E633DB2E73E1D400DAE943 /* CitiesInAustraliaAppUITests */,
+				91E633B92E73E0CC00DAE943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91E633B92E73E0CC00DAE943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E633B82E73E0CC00DAE943 /* CitiesInAustraliaApp.app */,
+				91E633CD2E73E1B600DAE943 /* CitiesInAustraliaAppTests.xctest */,
+				91E633DA2E73E1D400DAE943 /* CitiesInAustraliaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91E633B72E73E0CC00DAE943 /* CitiesInAustraliaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E633C62E73E0CE00DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaApp" */;
+			buildPhases = (
+				91E633B42E73E0CC00DAE943 /* Sources */,
+				91E633B52E73E0CC00DAE943 /* Frameworks */,
+				91E633B62E73E0CC00DAE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				91E633BA2E73E0CC00DAE943 /* CitiesInAustraliaApp */,
+			);
+			name = CitiesInAustraliaApp;
+			packageProductDependencies = (
+			);
+			productName = CitiesInAustraliaApp;
+			productReference = 91E633B82E73E0CC00DAE943 /* CitiesInAustraliaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91E633CC2E73E1B600DAE943 /* CitiesInAustraliaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E633D32E73E1B600DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaAppTests" */;
+			buildPhases = (
+				91E633C92E73E1B600DAE943 /* Sources */,
+				91E633CA2E73E1B600DAE943 /* Frameworks */,
+				91E633CB2E73E1B600DAE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E633D22E73E1B600DAE943 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91E633CE2E73E1B600DAE943 /* CitiesInAustraliaAppTests */,
+			);
+			name = CitiesInAustraliaAppTests;
+			packageProductDependencies = (
+			);
+			productName = CitiesInAustraliaAppTests;
+			productReference = 91E633CD2E73E1B600DAE943 /* CitiesInAustraliaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91E633D92E73E1D400DAE943 /* CitiesInAustraliaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E633E22E73E1D400DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaAppUITests" */;
+			buildPhases = (
+				91E633D62E73E1D400DAE943 /* Sources */,
+				91E633D72E73E1D400DAE943 /* Frameworks */,
+				91E633D82E73E1D400DAE943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91E633E12E73E1D400DAE943 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91E633DB2E73E1D400DAE943 /* CitiesInAustraliaAppUITests */,
+			);
+			name = CitiesInAustraliaAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CitiesInAustraliaAppUITests;
+			productReference = 91E633DA2E73E1D400DAE943 /* CitiesInAustraliaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91E633B02E73E0CC00DAE943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					91E633B72E73E0CC00DAE943 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					91E633CC2E73E1B600DAE943 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 91E633B72E73E0CC00DAE943;
+					};
+					91E633D92E73E1D400DAE943 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 91E633B72E73E0CC00DAE943;
+					};
+				};
+			};
+			buildConfigurationList = 91E633B32E73E0CC00DAE943 /* Build configuration list for PBXProject "CitiesInAustraliaApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91E633AF2E73E0CC00DAE943;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 91E633B92E73E0CC00DAE943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91E633B72E73E0CC00DAE943 /* CitiesInAustraliaApp */,
+				91E633CC2E73E1B600DAE943 /* CitiesInAustraliaAppTests */,
+				91E633D92E73E1D400DAE943 /* CitiesInAustraliaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91E633B62E73E0CC00DAE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633CB2E73E1B600DAE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633D82E73E1D400DAE943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91E633B42E73E0CC00DAE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633C92E73E1B600DAE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E633D62E73E1D400DAE943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91E633D22E73E1B600DAE943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E633B72E73E0CC00DAE943 /* CitiesInAustraliaApp */;
+			targetProxy = 91E633D12E73E1B600DAE943 /* PBXContainerItemProxy */;
+		};
+		91E633E12E73E1D400DAE943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91E633B72E73E0CC00DAE943 /* CitiesInAustraliaApp */;
+			targetProxy = 91E633E02E73E1D400DAE943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91E633C42E73E0CE00DAE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91E633C52E73E0CE00DAE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91E633C72E73E0CE00DAE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ausflag.png;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitiesInAustraliaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AUS Cities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91E633C82E73E0CE00DAE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ausflag.png;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CitiesInAustraliaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AUS Cities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91E633D42E73E1B600DAE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiesInAustraliaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitiesInAustraliaApp";
+			};
+			name = Debug;
+		};
+		91E633D52E73E1B600DAE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiesInAustraliaApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CitiesInAustraliaApp";
+			};
+			name = Release;
+		};
+		91E633E32E73E1D400DAE943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitiesInAustraliaApp;
+			};
+			name = Debug;
+		};
+		91E633E42E73E1D400DAE943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WUQ7WR3WGD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOSSiri.CitiesInAustraliaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CitiesInAustraliaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91E633B32E73E0CC00DAE943 /* Build configuration list for PBXProject "CitiesInAustraliaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E633C42E73E0CE00DAE943 /* Debug */,
+				91E633C52E73E0CE00DAE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E633C62E73E0CE00DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E633C72E73E0CE00DAE943 /* Debug */,
+				91E633C82E73E0CE00DAE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E633D32E73E1B600DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E633D42E73E1B600DAE943 /* Debug */,
+				91E633D52E73E1B600DAE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E633E22E73E1D400DAE943 /* Build configuration list for PBXNativeTarget "CitiesInAustraliaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91E633E32E73E1D400DAE943 /* Debug */,
+				91E633E42E73E1D400DAE943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91E633B02E73E0CC00DAE943 /* Project object */;
+}
